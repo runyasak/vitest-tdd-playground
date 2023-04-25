@@ -1,13 +1,23 @@
 # Sum Array (Part 2)
 
-- เมื่อ `x` หารด้วย 3, 5 และ 10 ลงตัว ต้อง return `"I love FizzBuzz {x}"`
+`sumArray` จะนำสมาชิกตัวสุดท้ายมาหารผลลัพธ์ทั้งหมด
+
+หากตัวหารเป็น `0` ให้ return คำว่า `"Infinity"`
 
 ## Examples
 
 ```js
-  fizzBuzz(30) -->  "I love FizzBuzz 30"
+  sumArray([1, 2]) -->  1.5
 ```
 
 ```js
-  fizzBuzz(60) -->  "I love FizzBuzz 60"
+  sumArray([5, 10, 3]) -->  6
+```
+
+```js
+  sumArray([10, 20, 10000]) -->  0.003
+```
+
+```js
+  sumArray([]) -->  "Infinity"
 ```
